@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none
+}
+
+body {
+  font-size: 14px
+}
+
+.upload-btns {
+  padding-top: 40px;
+  text-align: center
+}
+
+.upload-select {
+  display: inline-block;
+  padding: 10px 30px;
+  line-height: 24px;
+  background: #f2f2f2;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.show-result {
+  text-align: center
+}
+
+.show-result h1 {
+  font-size: 18px;
+  padding: 20px 0 20px
+}
+
+.show-list {
+  padding: 0 50px
+}
+
+.show-list li {
+  line-height: 3em;
+  border-bottom: 1px solid #e8e8e8
+}
+
+/* tbale */
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px
+}
+
+table .default-img {
+  width: 100px;
+  height: 100px;
+}
+
+
+table th {
+  background: #0090D7;
+  font-weight: normal;
+  line-height: 30px;
+  font-size: 14px;
+  color: #FFF;
+}
+
+table tr:nth-child(odd) {
+  background: #F4F4F4;
+}
+
+table td:last-child {
+  color: #C00;
+  font-size:30px;
+  cursor: pointer
+}
+
+table td img {
+  padding-top: 10px;
+}
+/* 进度条 */
+.container{
+  width: 400px;
+  height: 20px;
+  margin: 0 auto;
+  /* margin-top: 100px; */
+  border:2px solid #388bfb;
+  line-height: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  overflow: hidden;
+}
+.time{
+  background: #85B9FF;
+  height: 100%;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  color: #fff;
+}

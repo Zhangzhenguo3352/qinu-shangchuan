@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=640, user-scalable=no, initital-scale=1,target-densitydpi=device-dpi">
+    <title>七牛云 - JavaScript SDK</title>
+    <link rel="stylesheet" href="styles/uploader.css">
+</head>
+
+<body>
+
+    <div class="upload-btns">
+        <span id="pickfiles" class="upload-select">选择文件</span>
+        <span id="upload" class="upload-select">开始上传</span>
+    </div>
+
+    <div class="show-result">
+        <h1>上传文件列表</h1>
+        <table id="fileTable" border="0" cellspacing="0" cellpadding="10px">
+            <tr>
+                <th>img</th>
+                <th>size</th>
+                <th>link</th>
+                <th>delete</th>
+            </tr>
+            <tbody id="show-list">
+
+            </tbody>
+        </table>
+    </div>
+
+
+   
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/spark-md5.js"></script>
+    <script type="text/javascript"   src="scripts/uploader.js"></script>
+</body>
+
+</html>
